@@ -1,0 +1,59 @@
+{
+  "cli_version": "0.9.0",
+  "checkpoint_id": "59d53d2b4f63",
+  "session_id": "019ffb98-5503-7d92-bcb8-23364cfe000e",
+  "strategy": "manual-commit",
+  "created_at": "2026-08-13T15:12:12.950658Z",
+  "branch": "fix/hook-env-auth-stdout",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "crates/fnox-core/src/auth_prompt.rs"
+  ],
+  "agent": "Codex",
+  "model": "gpt-5.6-sol",
+  "turn_id": "f5b49381f1de",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 222351,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 3683072,
+    "output_tokens": 11679,
+    "api_call_count": 42
+  },
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-08-13T15:12:12.88924Z",
+    "agent_lines": 40,
+    "agent_removed": 5,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 40,
+    "total_lines_changed": 45,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 147,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "discord-config-loading.md": 19,
+        "lease-credentials-design.md": 128
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 187,
+      "agent_lines_removed": 5
+    }
+  ]
+}
